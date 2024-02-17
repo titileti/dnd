@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inventaire D&D</title>
+</head>
+<body>
+    <header>
+        <h1>Inventaire Donjons et Dragons</h1>
+    </header>
+    <main>
+        <section id="addItemSection">
+            <h2>Ajouter un élément</h2>
+            <form id="addItemForm">
+                <label for="itemName">Nom de l'élément :</label>
+                <input type="text" id="itemName" required>
+
+                <label for="itemQuantity">Quantité :</label>
+                <input type="number" id="itemQuantity" required>
+
+                <button type="button" onclick="addItem()">Ajouter</button>
+            </form>
+        </section>
+
+        <section id="inventorySection">
+            <h2>Inventaire</h2>
+            <ul id="inventoryList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

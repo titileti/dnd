@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
